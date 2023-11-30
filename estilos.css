@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #DAC0A3;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin: 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#sobre-mim,
+#educacao,
+#projetos,
+#contato {
+    margin-top: 50px;
+}
+img{
+    width: 30%;
+    display:flex;
+    margin-left: 5%;
+}
+.flex-container {
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    background-color: #F8F0E5;
+}
+
+.texto-header {
+    margin-left: 20%; /* Adicione um espaço à esquerda entre a imagem e o texto */
+}
+.contato{
+    padding-top: 3rem;
+    background-color: #DAC0A3;
+}
+/* Estilos para o formulário */
+.contato-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #DAC0A3;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para os campos do formulário */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Estilos para o botão de envio */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+.header-estilo{
+    padding-top: 3.1rem;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    background-color: #F8F0E5;
+}
